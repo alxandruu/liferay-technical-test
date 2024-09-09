@@ -35,14 +35,15 @@
         <tbody>
             <!-- async data loading -->
             <!-- TODO: add a loading icon-->
+            <tr>
+                <td colspan="5" class="text-center"><liferay-ui:message key="table.empty" /></td>
+            </tr>
         </tbody>
     </table>
     <nav aria-label="Users Page Navigation" class="mt-2">
         <ul class="pagination flex-nowrap" id="users-pages-pagination"
             style="min-width: 100px; max-width: 300px; overflow-x: auto;">
-            <tr>
-                <td colspan="5" class="text-center"><liferay-ui:message key="table.empty" /></td>
-            </tr>
+            <!-- async data loading -->
         </ul>
     </nav>
 </div>
